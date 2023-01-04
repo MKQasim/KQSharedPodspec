@@ -1,0 +1,2 @@
+# KQSharedPodspec
+KQSharedPodspec
