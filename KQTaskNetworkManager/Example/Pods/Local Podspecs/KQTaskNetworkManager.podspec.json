@@ -18,6 +18,12 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "**/KQTaskNetworkManager/**/*.{swift}",
-  "resources": "**/KQTaskNetworkManager/**/*.{pdf,png,jpeg,jpg,storyboard,xib,xcassets}"
+  "source_files": "KQTaskNetworkManager/**/*.{swift}",
+  "resources": "KQTaskNetworkManager/**/*.{pdf,png,jpeg,jpg,storyboard,xib,xcassets}",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
 }
