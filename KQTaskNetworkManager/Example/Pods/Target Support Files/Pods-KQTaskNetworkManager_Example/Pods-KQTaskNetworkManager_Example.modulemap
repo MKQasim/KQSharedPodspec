@@ -1,0 +1,6 @@
+framework module Pods_KQTaskNetworkManager_Example {
+  umbrella header "Pods-KQTaskNetworkManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
