@@ -1,2 +1,2 @@
-# KQSharedPodspec
-KQSharedPodspec
+# KQTaskNetworkManager
+KQTaskNetworkManager
