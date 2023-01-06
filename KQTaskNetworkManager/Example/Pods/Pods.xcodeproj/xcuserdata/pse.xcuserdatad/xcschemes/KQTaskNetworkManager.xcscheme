@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA6B2FD90CEE509C82B893BE87CA757C"
-               BuildableName = "KQTaskNetworkManager.framework"
+               BuildableName = "KQTaskNetworkManager"
                BlueprintName = "KQTaskNetworkManager"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
