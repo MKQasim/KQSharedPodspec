@@ -19,7 +19,7 @@
     "ios": "13.0"
   },
   "resources": [
-    "KQTaskNetworkManager/Recources/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}",
+    "KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}",
     "fix_project_structure"
   ],
   "pod_target_xcconfig": {
