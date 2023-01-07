@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KQTaskNetworkManager'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of KQTaskNetworkManager.'
   s.description      = "KQTaskNetworkManager is hellping for to call apis on  server"
   s.homepage         = 'https://github.com/MKQasim/KQTaskNetworkManager'
