@@ -24,7 +24,7 @@
   ],
   "resource_bundles": {
     "<KQTaskNetworkManager>": [
-      "Assets/**/*.xcassets"
+      "Assets/*.xcassets"
     ]
   },
   "pod_target_xcconfig": {

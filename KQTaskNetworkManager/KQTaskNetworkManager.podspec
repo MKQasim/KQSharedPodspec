@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '13.0'
   s.source_files = 'KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}', 'fix_project_structure'
-  s.resource_bundles = {'<KQTaskNetworkManager>' => ['Assets/**/*.xcassets']}
+  s.resource_bundles = {'<KQTaskNetworkManager>' => ['Assets/*.xcassets']}
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
