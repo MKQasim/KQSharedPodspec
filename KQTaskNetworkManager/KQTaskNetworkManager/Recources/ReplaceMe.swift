@@ -8,6 +8,4 @@ public class Services{
     public static func getResources()->UIImage?{
         return UIImage(named: "MindValley")
     }
-    
-  
 }

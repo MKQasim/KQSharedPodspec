@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KQTaskNetworkManager-&lt;KQTaskNetworkManager&gt;.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KQTaskNetworkManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>

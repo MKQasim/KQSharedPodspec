@@ -122,7 +122,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				71B0208D9C8AD75821B7B019 /* [CP] Copy Pods Resources */,
+				0D6EA596EF9D1664A760F228 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +185,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D6EA596EF9D1664A760F228 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KQTaskNetworkManager/KQTaskNetworkManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KQTaskNetworkManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		63BC835C21E8C1F4544F51AE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,55 +223,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		71B0208D9C8AD75821B7B019 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-resources.sh",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiHandler.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiLoader/ApiLoader.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiRequestHandler/ApiRequestHandler.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/ApiResponseHandler.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/DefaultResponseParser.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/AuthRequest.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/DefaultRequest.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/Request.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/RequestBuilder.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment/Enviroment.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Reachability/Reachability.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ServiceError/ServiceError.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/Storyboards/TaskStoryboard.storyboard",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.swift",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.xib",
-				"${PODS_ROOT}/../../KQTaskNetworkManager/Recources/ReplaceMe.swift",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiHandler.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiLoader.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiRequestHandler.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiResponseHandler.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DefaultResponseParser.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AuthRequest.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DefaultRequest.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Request.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RequestBuilder.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Enviroment.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reachability.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ReplaceMe.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ServiceError.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaskStoryboard.storyboardc",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaskVC.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaskVC.nib",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

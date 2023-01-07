@@ -1,6 +1,6 @@
 {
   "name": "KQTaskNetworkManager",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A short description of KQTaskNetworkManager.",
   "description": "KQTaskNetworkManager is hellping for to call apis on  server",
   "homepage": "https://github.com/MKQasim/KQTaskNetworkManager",
@@ -13,15 +13,20 @@
   },
   "source": {
     "git": "https://github.com/MKQasim/KQTaskNetworkManager.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "13.0"
   },
-  "resources": [
+  "source_files": [
     "KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}",
     "fix_project_structure"
   ],
+  "resource_bundles": {
+    "<KQTaskNetworkManager>": [
+      "Assets/**/*.xcassets"
+    ]
+  },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
