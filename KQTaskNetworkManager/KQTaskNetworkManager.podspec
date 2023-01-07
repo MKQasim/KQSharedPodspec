@@ -6,17 +6,11 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+
 Pod::Spec.new do |s|
   s.name             = 'KQTaskNetworkManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of KQTaskNetworkManager.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = "KQTaskNetworkManager is hellping for to call apis on  server"
   s.homepage         = 'https://github.com/MKQasim/KQTaskNetworkManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -24,35 +18,12 @@ Pod::Spec.new do |s|
   s.author           = { 'MKQasim' => 'kamqasim1@gmail.com' }
   s.source           = { :git => 'https://github.com/MKQasim/KQTaskNetworkManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-    s.ios.deployment_target = '13.0'
-    s.swift_version = "5.0"
-    s.requires_arc = true
-    s.source_files = "KQTaskNetworkManager/**/*.{swift}"
-    s.resources = "mkqasim-kqtasknetworkmanager/KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
- 
-    
-    
-    
-#    s.source_files = '**/KQTaskNetworkManager/**/*.{swift}', 'fix_project_structure'
-#    s.source_files = 'Sources/**/*.{swift}', 'fix_project_structure'
-#    s.resources = 'KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}', 'fix_project_structure'
- 
-  # s.source_files = 'Classes/Resources/**/*'
+  s.ios.deployment_target = '13.0'
+  s.source_files = 'KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}', 'fix_project_structure'
+  s.resource_bundles = {'<KQTaskNetworkManager>' => ['Assets/**/*.xcassets']}
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
-  
- 
-
-#  s.dependency 'IAFloatingMaskedTextField'
-#  s.dependency 'IAExtenstions'
-#  s.dependency 'SnapKit', '~> 4.2'
-#  s.dependency 'TPKeyboardAvoiding', '~> 1.3'
-#  s.dependency 'RichEditorView', '~> 5.0'
-#  s.dependency 'Charts'
-  
-
 end
