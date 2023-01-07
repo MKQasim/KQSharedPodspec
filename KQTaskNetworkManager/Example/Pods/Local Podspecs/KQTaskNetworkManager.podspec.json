@@ -18,15 +18,11 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": [
-    "KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}",
-    "fix_project_structure"
+  "source_files": "KQTaskNetworkManager/**/*.{swift, plist,pdf,png,jpeg,jpg,storyboard,xib,xcassets}",
+  "resources": [
+    "KQTaskNetworkManager/**/*.{{swift, plist,pdf,png,jpeg,jpg,storyboard,xib,xcassets}}",
+    "KQTaskNetworkManager/**/*/Media.xcassets"
   ],
-  "resource_bundles": {
-    "<KQTaskNetworkManager>": [
-      "Assets/*.xcassets"
-    ]
-  },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },

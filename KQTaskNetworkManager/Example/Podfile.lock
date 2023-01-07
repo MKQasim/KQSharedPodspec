@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KQTaskNetworkManager: e1e551e4b95912ae7b9f6d47ef7294e00f2380e8
+  KQTaskNetworkManager: fc7c3cf209e1b83470dd85d286ed6c01e3c8e0c0
 
 PODFILE CHECKSUM: 2242c24d636bb0f4e15dde031090b7e93b4dbe03
 
