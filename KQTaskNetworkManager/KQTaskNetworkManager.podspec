@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KQTaskNetworkManager'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of KQTaskNetworkManager.'
   s.description      = "KQTaskNetworkManager is hellping for to call apis on  server"
   s.homepage         = 'https://github.com/MKQasim/KQTaskNetworkManager'
@@ -19,8 +19,18 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MKQasim/KQTaskNetworkManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '13.0'
-  s.source_files = 'KQTaskNetworkManager/**/*.{swift, plist,pdf,png,jpeg,jpg,storyboard,xib,xcassets}'
-  s.resources = 'KQTaskNetworkManager/**/*.{{swift, plist,pdf,png,jpeg,jpg,storyboard,xib,xcassets}}','KQTaskNetworkManager/**/*/Media.xcassets'
+#  s.source_files = 'KQTaskNetworkManager/**/*.{swift, plist,pdf,png,jpeg,jpg,storyboard,xib,xcassets}','KQTaskNetworkManager/**/*.{png}'
+#  s.resources = 'KQTaskNetworkManager/**/*.{swift, plist,pdf,png,jpeg,jpg,storyboard,xib,xcassets}'
+#  s.resources = ['Media/*.png']
+
+  
+  s.source_files = 'KQTaskNetworkManager/Recources/**/*.{swift, plist,pdf,png,jpeg,jpg,storyboard,xib,xcassets}'
+  s.resources = 'KQTaskNetworkManager/Images/**/*.{xcassets,png,json,pdf}'
+  
+
+
+
+  
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
