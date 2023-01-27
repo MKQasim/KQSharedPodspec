@@ -1,122 +1,118 @@
-//
-//  Enviroment.swift
-//  KQTaskProject
-//
-//  Created by KamsQue on 22/12/2022.
-//
+  //
+  //  Enviroment.swift
+  //  KQTaskProject
+  //
+  //  Created by KamsQue on 22/12/2022.
+  //
 
 
 import Foundation
 
-public enum Environment {
-    
-    case debug
-    case release
-    case testing
-    case staging
-    case production
-    
-    
-    
-    
-#if Debug
-    
-#elseif Testing
-    
-#elseif Staging
-    
-#elseif Production
-    
-#elseif Release
-    
-#endif
-    
-    
-    func baseURL() -> String {
-        return "\(urlProtocol())://\(subdomain()).\(domain())\(route())"
+
+public enum Environment
+{
+  
+  case Local
+  case Dev
+  case Qa
+  case Stag
+  case Prod
+  
+  
+  
+//https://run.mocky.io/v3/488740b2-66ed-464b-bce9-f8c70185054b
+  
+  func baseURL() -> String
+  {
+    return "\(urlProtocol())://\(subdomain()).\(domain())\(route())"
+  }
+  
+  func urlProtocol() -> String
+  {
+    switch self {
+    case .Local, .Dev, .Qa , .Stag, .Prod :
+      return "https"
+    default:
+      return "https"
     }
-    
-    func urlProtocol() -> String {
-        switch self {
-        case .production:
-            return "https"
-        default:
-            return "https"
-        }
+  }
+  
+  func subdomain() -> String
+  {
+    switch self
+    {
+    case .Local, .Dev, .Qa , .Stag, .Prod  :
+      return "run.mocky"
+    default:
+      return "run.mocky"
     }
-    
-    func subdomain() -> String {
-        switch self {
-        case .debug:
-            return "api"
-        case .staging:
-            return "stag.subdomain"
-        case .production:
-            return "api"
-        case .release:
-            return "api"
-        case .testing:
-            return "api"
-        }
+  }
+  
+  func domain() -> String
+  {
+    switch self
+    {
+    case .Local, .Dev, .Qa , .Stag, .Prod  :
+      return "io/"
+    default:
+      return "io/"
     }
-    
-    func domain() -> String {
-        switch self {
-        case .debug, .staging, .production , .release  :
-            return "github.com"
-        case .testing:
-            return "new/github.com"
-        }
-    }
-    
-    func route() -> String {
-        return "/users"
-    }
+  }
+  
+  func route() -> String
+  {
+    return "v3/488740b2-66ed-464b-bce9-f8c70185054b"
+  }
 }
 
-extension Environment {
-    func host() -> String {
-        return "\(self.subdomain()).\(self.domain())"
-    }
+extension Environment
+{
+  func host() -> String
+  {
+    return "\(self.subdomain()).\(self.domain())"
+  }
+}
+  // MARK:- APIs
+var baseUrls = ""
+
+func setupConfig()
+{
+#if Local
+  self.baseUrls = Environment.Local
+#elseif Dev
+  self.baseUrls = Environment.Dev
+#elseif Qa
+  self.baseUrls = Environment.Qa
+#elseif Stag
+  self.baseUrls = Environment.Stag
+#elseif Prod
+  self.baseUrls = Environment.Prod
+#endif
 }
 
-
-// MARK:- APIs
-
-#if DEBUG
-let environment: Environment = Environment.debug
-#else
-let environment: Environment = Environment.staging
-#endif
-
-
-//#if Debug
-//var environment: Environment = Environment.debug
-//#elseif Testing
-//var environment: Environment = Environment.testing
-//#elseif Staging
-//var environment: Environment = Environment.staging
-//#elseif Production
-//var environment: Environment = Environment.production
-//#elseif Release
-//var environment: Environment = Environment.staging
-//#endif
-
-
-let baseUrl = environment.baseURL()
-
-public struct Path {
-    public init() {}
-    public struct Users {
-        public init() {}
-        public var getMostViewedUsers : (String) -> String = { api_Key  in
-            return "\(baseUrl)"
-        }
-        
-        public var getUserDetails : (String) -> String = { api_Key  in
-            return "\(baseUrl)/\(api_Key)"
-        }
+public struct Path
+{
+  public init()
+  {
+    
+  }
+  public struct Transactions
+  {
+    public init(environment : Environment) {
+      baseUrls = environment.baseURL()
+      print(baseUrls)
     }
+    public var getTransactionsList : (String) -> String =
+    {
+      api_Key  in
+      return "\(baseUrls)"
+    }
+    public var getTransactionDetails : (String) -> String =
+    {
+      api_Key  in
+      return "\(baseUrls)/\(api_Key)"
+    }
+  }
 }
 
 /*

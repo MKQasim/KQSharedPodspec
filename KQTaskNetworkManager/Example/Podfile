@@ -2,7 +2,8 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'KQTaskNetworkManager_Example' do
-#  pod 'KQTaskNetworkManager', '~> 0.1.0'
-  pod 'KQTaskNetworkManager', :path => '../'
+#  pod 'KQTaskNetworkManager', '~> 0.1.6'
+#  , '~> 0.1.0'
+  pod 'KQTaskNetworkManager', :path => 'https://github.com/MKQasim/KQTaskNetworkManager.git'
 
 end

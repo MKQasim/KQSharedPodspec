@@ -1,16 +1,16 @@
 PODS:
-  - KQTaskNetworkManager (0.1.0)
+  - KQTaskNetworkManager (0.1.2)
 
 DEPENDENCIES:
-  - KQTaskNetworkManager (from `../`)
+  - KQTaskNetworkManager
 
-EXTERNAL SOURCES:
-  KQTaskNetworkManager:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - KQTaskNetworkManager
 
 SPEC CHECKSUMS:
-  KQTaskNetworkManager: ee7710a0f542ce9c51c9c4c8a8f1cf0f77356011
+  KQTaskNetworkManager: af9f463cd8925de7c605376898f59712364c22f1
 
-PODFILE CHECKSUM: 2242c24d636bb0f4e15dde031090b7e93b4dbe03
+PODFILE CHECKSUM: 7746f65a9b2c0f00745a621ed0e2e4f2b7840286
 
 COCOAPODS: 1.11.3
