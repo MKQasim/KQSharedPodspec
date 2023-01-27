@@ -1,5 +1,5 @@
 PODS:
-  - KQTaskNetworkManager (0.1.5)
+  - KQTaskNetworkManager (0.1.0)
 
 DEPENDENCIES:
   - KQTaskNetworkManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KQTaskNetworkManager: 5292865e18427c7d9b0a451922893d5bda582de6
+  KQTaskNetworkManager: ee7710a0f542ce9c51c9c4c8a8f1cf0f77356011
 
 PODFILE CHECKSUM: 2242c24d636bb0f4e15dde031090b7e93b4dbe03
 

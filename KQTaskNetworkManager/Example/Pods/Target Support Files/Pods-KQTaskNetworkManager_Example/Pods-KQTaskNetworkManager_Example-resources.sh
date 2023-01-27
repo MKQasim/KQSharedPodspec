@@ -108,12 +108,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/RequestBuilder.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment/Enviroment.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Reachability/Reachability.swift"
-  install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ServiceError/ServiceError.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/Storyboards/TaskStoryboard.storyboard"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.xib"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/ReplaceMe.swift"
+  install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Images/Media.xcassets"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiHandler.swift"
@@ -127,12 +127,12 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/RequestBuilder.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment/Enviroment.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Reachability/Reachability.swift"
-  install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ServiceError/ServiceError.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/Storyboards/TaskStoryboard.storyboard"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.swift"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.xib"
   install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Recources/ReplaceMe.swift"
+  install_resource "${PODS_ROOT}/../../KQTaskNetworkManager/Images/Media.xcassets"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

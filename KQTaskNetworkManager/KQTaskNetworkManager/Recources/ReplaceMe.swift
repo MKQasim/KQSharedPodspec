@@ -11,7 +11,7 @@ public class Services{
 //        // process image
 //    }
     public static func getResources()->UIImage?{
-        return UIImage(named: "qasim")
+        return UIImage()
     }
 //
 //        @swalkner Didn't remember this post but I guess yes. On my Core subspec: s.subspec 'Core' I just have: ss.resources = ['Pod/Resources/Fonts/*.ttf', 'Pod/Resources/Extra.xcassets', 'Pod/Resources/Mocks/*.json']

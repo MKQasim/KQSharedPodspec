@@ -12,13 +12,12 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		722AF4A529A3CD9844790C4C /* Pods_KQTaskNetworkManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597CCC9B0CC76D63FDE7CF3B /* Pods_KQTaskNetworkManager_Example.framework */; };
+		BC65DAD356CB5A1B11711BD8 /* Pods_KQTaskNetworkManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A6C170720BAB5935190B4 /* Pods_KQTaskNetworkManager_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20D83B04A4CC2843E35DE0CD /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQTaskNetworkManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0A4A6C170720BAB5935190B4 /* Pods_KQTaskNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KQTaskNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A3F0D7B8626E6CFD69188 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		597CCC9B0CC76D63FDE7CF3B /* Pods_KQTaskNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KQTaskNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6DAE0E3CB48968E3826A43 /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KQTaskNetworkManager.podspec; path = ../KQTaskNetworkManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* KQTaskNetworkManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KQTaskNetworkManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,8 +26,9 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7F60568BD7EC89EFAA6AE3FA /* Pods-KQTaskNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQTaskNetworkManager_Example.release.xcconfig"; path = "Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		72DD3878CC7688A4C79FCE9D /* Pods-KQTaskNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQTaskNetworkManager_Example.release.xcconfig"; path = "Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A85EB89716D22B20A3B32CF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F198630AB6DD6F7A620C2080 /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQTaskNetworkManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722AF4A529A3CD9844790C4C /* Pods_KQTaskNetworkManager_Example.framework in Frameworks */,
+				BC65DAD356CB5A1B11711BD8 /* Pods_KQTaskNetworkManager_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,16 +46,16 @@
 		02DC118CE61805E6139D1F24 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20D83B04A4CC2843E35DE0CD /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */,
-				7F60568BD7EC89EFAA6AE3FA /* Pods-KQTaskNetworkManager_Example.release.xcconfig */,
+				F198630AB6DD6F7A620C2080 /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */,
+				72DD3878CC7688A4C79FCE9D /* Pods-KQTaskNetworkManager_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		3DD02C07C6ACEE417264490C /* Frameworks */ = {
+		5450B14CF59749B00D97C8DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				597CCC9B0CC76D63FDE7CF3B /* Pods_KQTaskNetworkManager_Example.framework */,
+				0A4A6C170720BAB5935190B4 /* Pods_KQTaskNetworkManager_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,7 +67,7 @@
 				607FACD21AFB9204008FA782 /* Example for KQTaskNetworkManager */,
 				607FACD11AFB9204008FA782 /* Products */,
 				02DC118CE61805E6139D1F24 /* Pods */,
-				3DD02C07C6ACEE417264490C /* Frameworks */,
+				5450B14CF59749B00D97C8DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,11 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager_Example" */;
 			buildPhases = (
-				63BC835C21E8C1F4544F51AE /* [CP] Check Pods Manifest.lock */,
+				88B451F7FF18F813AD84B4A7 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				0A69BAD97A6A4438E96F1EDB /* [CP] Embed Pods Frameworks */,
+				B0AFEA0E5224DA784D1021A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,7 +148,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = R5542992JH;
+						DevelopmentTeam = CT7H96YF74;
 						LastSwiftMigration = "";
 					};
 				};
@@ -185,25 +185,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A69BAD97A6A4438E96F1EDB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KQTaskNetworkManager/KQTaskNetworkManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KQTaskNetworkManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		63BC835C21E8C1F4544F51AE /* [CP] Check Pods Manifest.lock */ = {
+		88B451F7FF18F813AD84B4A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,6 +205,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0AFEA0E5224DA784D1021A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KQTaskNetworkManager/KQTaskNetworkManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KQTaskNetworkManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,10 +366,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20D83B04A4CC2843E35DE0CD /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */;
+			baseConfigurationReference = F198630AB6DD6F7A620C2080 /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R5542992JH;
+				DEVELOPMENT_TEAM = CT7H96YF74;
 				INFOPLIST_FILE = KQTaskNetworkManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -384,10 +384,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F60568BD7EC89EFAA6AE3FA /* Pods-KQTaskNetworkManager_Example.release.xcconfig */;
+			baseConfigurationReference = 72DD3878CC7688A4C79FCE9D /* Pods-KQTaskNetworkManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R5542992JH;
+				DEVELOPMENT_TEAM = CT7H96YF74;
 				INFOPLIST_FILE = KQTaskNetworkManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
