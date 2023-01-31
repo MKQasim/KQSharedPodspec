@@ -18,8 +18,6 @@ public enum Environment
   case Stag
   case Prod
   
-  
-  
 //https://run.mocky.io/v3/488740b2-66ed-464b-bce9-f8c70185054b
   
   func baseURL() -> String
@@ -32,8 +30,6 @@ public enum Environment
     switch self {
     case .Local, .Dev, .Qa , .Stag, .Prod :
       return "https"
-    default:
-      return "https"
     }
   }
   
@@ -43,8 +39,6 @@ public enum Environment
     {
     case .Local, .Dev, .Qa , .Stag, .Prod  :
       return "run.mocky"
-    default:
-      return "run.mocky"
     }
   }
   
@@ -53,8 +47,6 @@ public enum Environment
     switch self
     {
     case .Local, .Dev, .Qa , .Stag, .Prod  :
-      return "io/"
-    default:
       return "io/"
     }
   }
