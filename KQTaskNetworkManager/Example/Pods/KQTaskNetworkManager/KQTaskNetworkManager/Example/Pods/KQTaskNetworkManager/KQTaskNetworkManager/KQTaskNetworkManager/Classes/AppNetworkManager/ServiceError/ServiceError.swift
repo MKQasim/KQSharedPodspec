@@ -9,17 +9,17 @@ import Foundation
 
 // MARK: - Errors
 
-public struct ServiceError: Error, Codable {
+struct ServiceError: Error, Codable {
     let httpStatus: Int
     let message: String
     let description: String?
 }
 
-public struct NetworkError: Error {
+struct NetworkError: Error {
     let message: String
 }
 
-public struct UnknownParseError: Error { }
+struct UnknownParseError: Error { }
 
 
 

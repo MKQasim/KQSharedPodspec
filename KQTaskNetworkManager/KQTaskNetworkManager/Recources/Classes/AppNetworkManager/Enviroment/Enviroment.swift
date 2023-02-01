@@ -18,7 +18,9 @@ public enum Environment
   case Stag
   case Prod
   
-//https://run.mocky.io/v3/488740b2-66ed-464b-bce9-f8c70185054b
+//Local   https://run.mocky.io/v3/488740b2-66ed-464b-bce9-f8c70185054b
+//Prod    https://api.payback.com/transactions
+//QA      https://api-test.payback.com/transactions
   
   func baseURL() -> String
   {
@@ -32,13 +34,17 @@ public enum Environment
       return "https"
     }
   }
-  
+
   func subdomain() -> String
   {
     switch self
     {
-    case .Local, .Dev, .Qa , .Stag, .Prod  :
+    case .Local, .Dev, .Stag:
       return "run.mocky"
+    case  .Qa :
+      return "api-test.payback"
+    case .Prod  :
+      return "api.payback"
     }
   }
   
@@ -46,14 +52,28 @@ public enum Environment
   {
     switch self
     {
-    case .Local, .Dev, .Qa , .Stag, .Prod  :
+    case .Local, .Dev, .Stag  :
       return "io/"
+    case  .Qa :
+      return "com/"
+    case .Prod  :
+      return "com/"
     }
   }
   
   func route() -> String
   {
-    return "v3/488740b2-66ed-464b-bce9-f8c70185054b"
+    switch self
+    {
+    case .Local, .Dev, .Stag  :
+      return "v3/488740b2-66ed-464b-bce9-f8c70185054b"
+    case  .Qa :
+      return "transactions"
+    case .Prod  :
+      return "transactions"
+    }
+    
+    
   }
 }
 
