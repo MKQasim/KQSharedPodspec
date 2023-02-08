@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MKQasim/KQTaskNetworkManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '13.0'
+  swift_versions = '4.0'
   
 #  s.resources = 'KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib}', 'fix_project_structure'
   
