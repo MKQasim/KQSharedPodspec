@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   
 #  s.resources = 'KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib}', 'fix_project_structure'
   
-  s.source_files = 'KQTaskNetworkManager/**/*.{swift}'
+  s.source_files = 'KQTaskNetworkManager/**/*.{swift,storyboard}'
   s.resources = "KQTaskNetworkManager/**/*.{pdf,png,jpeg,jpg,storyboard,xib,xcassets}"
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
