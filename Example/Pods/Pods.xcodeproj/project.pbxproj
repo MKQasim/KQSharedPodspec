@@ -16,7 +16,6 @@
 		47F57A4A7F600C1D716228A40E063776 /* Pods-KQTaskNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1244E425487777A446786454E2AEB /* Pods-KQTaskNetworkManager_Example-dummy.m */; };
 		4D47080B8C6A1F774FA91B0B84E86B01 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C120FD601D7368C2329674FE139D9 /* ApiHandler.swift */; };
 		59AE0320DADD44CFB4B84E40352E5AC8 /* DefaultResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E76ED930509B381727BD21E092BCD2 /* DefaultResponseParser.swift */; };
-		5D6529772ADCF4E0006DEF87 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6529762ADCF4E0006DEF87 /* Media.xcassets */; };
 		705DE6A31C0C441EB5E3EF12CD4701C0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8C71BE151E9BC8279CF32DB3F5D0C /* Request.swift */; };
 		7E66EEF6F959544723FF123730FBF8A4 /* Pods-KQTaskNetworkManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D71E8259B593C716FB43F55F48E556C5 /* Pods-KQTaskNetworkManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		938A4C5E7C5CE56A151C1E52FE4E1DBF /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F2EFE3286A4AD962C4E6F78769370 /* AuthRequest.swift */; };
@@ -59,7 +58,6 @@
 		523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KQTaskNetworkManager; path = KQTaskNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57569B9AB1CEEF5AF3B2962325813437 /* DefaultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultRequest.swift; sourceTree = "<group>"; };
 		5B5DC9F04D1B605F3A2E92CC26C7BE87 /* Pods-KQTaskNetworkManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KQTaskNetworkManager_Example"; path = Pods_KQTaskNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D6529762ADCF4E0006DEF87 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6372FB4ED09911AE03304C950DF1F7E9 /* Pods-KQTaskNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KQTaskNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
 		6CA1244E425487777A446786454E2AEB /* Pods-KQTaskNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KQTaskNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
 		6CA714363A8BEBC12F364EA33C44ED57 /* Pods-KQTaskNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KQTaskNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -70,14 +68,14 @@
 		7E0EC8BFF7D680154834B4CD0EF4A5A4 /* RequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		82EB8AE7C4554376DDF9E13D65EB2998 /* KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
 		843D7F83DD477F1BB06769941BDEFFAC /* ResourceBundle-KQTaskNetworkManager-KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KQTaskNetworkManager-KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
-		88DC8567978CC0C5DE2AA5CCD37DB226 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		92A234333381AA54F947FC47B5E331B9 /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88DC8567978CC0C5DE2AA5CCD37DB226 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92A234333381AA54F947FC47B5E331B9 /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D4C120FD601D7368C2329674FE139D9 /* ApiHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A73C8C4EA119E0FA38A5C147CB85653C /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A851D5FBE0B20A96751C218CBDDDCCC8 /* Pods-KQTaskNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KQTaskNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B086DA2E7B7A5C9FB6885FB52961471A /* KQTaskNetworkManager-KQTaskNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "KQTaskNetworkManager-KQTaskNetworkManager"; path = KQTaskNetworkManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5951E5926B1D9C2F86509A71B294A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5951E5926B1D9C2F86509A71B294A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BFAF584B5DF17094CA56FDFAEECA7D09 /* KQTaskNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KQTaskNetworkManager.modulemap; sourceTree = "<group>"; };
 		C08B494C5E71787ECE67BD121BA38A53 /* Pods-KQTaskNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KQTaskNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE705855ECA0CCB71EE2F62EB24C44A5 /* Pods-KQTaskNetworkManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KQTaskNetworkManager_Example-Info.plist"; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 		410052EB6FBC9BCB73AAD9343D2A1630 /* KQTaskNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				5D6529752ADCF495006DEF87 /* Assets */,
 				7A803A974752089A0A521B91A4CF1918 /* ReplaceMe.swift */,
 				78E9C1DA140F84E11C181EAAEAEC4135 /* ApiHandler */,
 				CCDF2071AB06A461A30E1BAF1992FF31 /* Enviroment */,
@@ -188,6 +185,7 @@
 			children = (
 				366EF358009E3EB80E618308E79A05BD /* ApiRequestHandler.swift */,
 			);
+			name = ApiRequestHandler;
 			path = ApiRequestHandler;
 			sourceTree = "<group>";
 		};
@@ -207,20 +205,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5D6529752ADCF495006DEF87 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				5D6529762ADCF4E0006DEF87 /* Media.xcassets */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		7632AEC38602A084C4D5C99A90A80FB6 /* ApiResponseHandler */ = {
 			isa = PBXGroup;
 			children = (
 				EFBAF15CB07FABE0D6592C1DA45A7BD4 /* ApiResponseHandler.swift */,
 				37E76ED930509B381727BD21E092BCD2 /* DefaultResponseParser.swift */,
 			);
+			name = ApiResponseHandler;
 			path = ApiResponseHandler;
 			sourceTree = "<group>";
 		};
@@ -251,6 +242,7 @@
 			children = (
 				4F330CBB219AEAD3F61608972864A744 /* ApiLoader.swift */,
 			);
+			name = ApiLoader;
 			path = ApiLoader;
 			sourceTree = "<group>";
 		};
@@ -309,6 +301,7 @@
 				F1C8C71BE151E9BC8279CF32DB3F5D0C /* Request.swift */,
 				7E0EC8BFF7D680154834B4CD0EF4A5A4 /* RequestBuilder.swift */,
 			);
+			name = CreateRequests;
 			path = CreateRequests;
 			sourceTree = "<group>";
 		};
@@ -437,7 +430,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6529772ADCF4E0006DEF87 /* Media.xcassets in Resources */,
 				C81600AB59DC846594F3C6AA9D5CF616 /* KQTaskNetworkManager-KQTaskNetworkManager in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,7 +615,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

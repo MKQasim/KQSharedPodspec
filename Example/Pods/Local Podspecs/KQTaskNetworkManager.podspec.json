@@ -1,12 +1,12 @@
 {
   "name": "KQTaskNetworkManager",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "summary": "A short description of KQTaskNetworkManager.",
   "description": "KQTaskNetworkManager is a library for making API calls to a server.",
   "homepage": "https://github.com/MKQasim/KQTaskNetworkManager",
   "resource_bundles": {
     "KQTaskNetworkManager": [
-      "KQTaskNetworkManager/Assets/*"
+      "KQTaskNetworkManager/Assets/*.xcassets"
     ]
   },
   "license": {
@@ -18,11 +18,11 @@
   },
   "source": {
     "git": "https://github.com/MKQasim/KQTaskNetworkManager.git",
-    "tag": "0.1.7"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "16.0"
   },
   "source_files": "KQTaskNetworkManager/**/*.{swift}",
-  "resources": "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+  "resources": "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings} || KQTaskNetworkManager/Resources/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 }

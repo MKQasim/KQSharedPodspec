@@ -38,8 +38,12 @@ s.ios.deployment_target = '16.0'
 # Include necessary source files
 s.source_files = "KQTaskNetworkManager/**/*.{swift}"
 # Include necessary resources (PDFs, images, storyboards, etc.)
-s.resources = "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+s.resources = "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings} || KQTaskNetworkManager/Resources/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 
+#s.resources = "KQTaskNetworkManager/Resources/*.png"
+s.resource_bundles = {
+  'KQTaskNetworkManager' => ['KQTaskNetworkManager/Assets/*.xcassets']
+}
 # Be cautious about excluding arm64 architecture for iPhone simulator
 # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
