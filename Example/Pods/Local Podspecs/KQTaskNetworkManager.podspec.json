@@ -6,7 +6,7 @@
   "homepage": "https://github.com/MKQasim/KQTaskNetworkManager",
   "resource_bundles": {
     "KQTaskNetworkManager": [
-      "KQTaskNetworkManager/Assets/*.xcassets"
+      "KQTaskNetworkManager/Assets/*"
     ]
   },
   "license": {
@@ -23,6 +23,6 @@
   "platforms": {
     "ios": "16.0"
   },
-  "source_files": "KQTaskNetworkManager/**/*.{swift}",
+  "source_files": "KQTaskNetworkManager/**/*.{swift,xcassets}",
   "resources": "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 }
