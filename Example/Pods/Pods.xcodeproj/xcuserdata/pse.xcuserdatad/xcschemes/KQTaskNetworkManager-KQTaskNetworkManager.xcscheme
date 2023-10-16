@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1891BECB25AF3A5A0FF2A6D1D4C61D3"
-               BuildableName = "Pods_KQTaskNetworkManager_Example.framework"
-               BlueprintName = "Pods-KQTaskNetworkManager_Example"
+               BlueprintIdentifier = "821BB9D150B7EB4A896FE851E342E189"
+               BuildableName = "KQTaskNetworkManager.bundle"
+               BlueprintName = "KQTaskNetworkManager-KQTaskNetworkManager"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

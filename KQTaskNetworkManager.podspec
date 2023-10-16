@@ -17,21 +17,35 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "KQTaskNetworkManager is hellping for to call apis on  server"
-  s.homepage         = 'https://github.com/MKQasim/KQTaskNetworkManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'MKQasim' => 'kamqasim1@gmail.com' }
-  s.source           = { :git => 'https://github.com/MKQasim/KQTaskNetworkManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-    s.ios.deployment_target = '13.0'
-#    s.source_files = '**/KQTaskNetworkManager/**/*.{swift}', 'fix_project_structure'
-#    s.source_files = 'Sources/**/*.{swift}', 'fix_project_structure'
-    s.resources = 'KQTaskNetworkManager/**/*.{swift,pdf,png,jpeg,jpg,storyboard,xib,xcassets}', 'fix_project_structure'
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # s.source_files = 'Classes/Resources/**/*'
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.description      = "KQTaskNetworkManager is a library for making API calls to a server."
+
+# Update the homepage URL to your project's actual page
+s.homepage         = 'https://github.com/MKQasim/KQTaskNetworkManager'
+s.resource_bundles = {
+  'KQTaskNetworkManager' => ['KQTaskNetworkManager/Assets/*']
+}
+# If you have screenshots, uncomment and provide URLs
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+
+s.license = { :type => 'MIT', :file => 'LICENSE' }
+s.author = { 'MKQasim' => 'kamqasim1@gmail.com' }
+
+# Update the Git repository URL and tag to match your project
+s.source = { :git => 'https://github.com/MKQasim/KQTaskNetworkManager.git', :tag => s.version.to_s }
+
+s.ios.deployment_target = '16.0'
+
+# Include necessary source files
+s.source_files = "KQTaskNetworkManager/**/*.{swift}"
+# Include necessary resources (PDFs, images, storyboards, etc.)
+s.resources = "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+
+# Be cautious about excluding arm64 architecture for iPhone simulator
+# s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+# s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+
+# If your project depends on other libraries, specify them here
+# s.dependency 'AFNetworking', '~> 2.3'
+
 end

@@ -10,7 +10,7 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACDD1AFB9204008FA782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Assets.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		BC65DAD356CB5A1B11711BD8 /* Pods_KQTaskNetworkManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4A6C170720BAB5935190B4 /* Pods_KQTaskNetworkManager_Example.framework */; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		72DD3878CC7688A4C79FCE9D /* Pods-KQTaskNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQTaskNetworkManager_Example.release.xcconfig"; path = "Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A85EB89716D22B20A3B32CF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDC1AFB9204008FA782 /* Assets.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -122,7 +122,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				29C8E0381F8673051A6748E1 /* [CP] Copy Pods Resources */,
+				DB913A6203C7914C240C79A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,100 +178,13 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				607FACDD1AFB9204008FA782 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29C8E0381F8673051A6748E1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-resources.sh",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/AppDelegate.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Base.lproj/LaunchScreen.xib",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Base.lproj/Main.storyboard",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Images.xcassets/MindValley.imageset/MindValley.png",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/ViewController.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/AppDelegate.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Base.lproj/LaunchScreen.xib",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Base.lproj/Main.storyboard",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Images.xcassets/MindValley.imageset/MindValley.png",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/ViewController.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Assets/Images.xcassets/MindValley.imageset/MindValley.png",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/ApiHandler.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/ApiLoader/ApiLoader.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/ApiRequestHandler/ApiRequestHandler.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/ApiResponseHandler.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/DefaultResponseParser.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/CreateRequests/AuthRequest.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/CreateRequests/DefaultRequest.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/CreateRequests/Request.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ApiHandler/CreateRequests/RequestBuilder.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/Enviroment/Enviroment.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/Reachability/Reachability.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ReplaceMe.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Classes/AppNetworkManager/ServiceError/ServiceError.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Storyboards/TaskStoryboard.storyboard",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/VC_Xib's/TaskVC.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/VC_Xib's/TaskVC.xib",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiHandler.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiLoader/ApiLoader.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiRequestHandler/ApiRequestHandler.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/ApiResponseHandler.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/DefaultResponseParser.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/AuthRequest.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/DefaultRequest.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/Request.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/RequestBuilder.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment/Enviroment.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Reachability/Reachability.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ServiceError/ServiceError.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/Assets/Images.xcassets/MindValley.imageset/MindValley.png",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/Storyboards/TaskStoryboard.storyboard",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/VC_Xib's/TaskVC.xib",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/ReplaceMe.swift",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Images.xcassets",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/Example/KQTaskNetworkManager/Images.xcassets",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/Example/Pods/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Assets/Images.xcassets",
-				"${PODS_ROOT}/KQTaskNetworkManager/KQTaskNetworkManager/KQTaskNetworkManager/Recources/Classes/Assets/Images.xcassets",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppDelegate.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LaunchScreen.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Main.storyboardc",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MindValley.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ViewController.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiHandler.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiLoader.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiRequestHandler.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ApiResponseHandler.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DefaultResponseParser.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AuthRequest.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DefaultRequest.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Request.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RequestBuilder.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Enviroment.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Reachability.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ReplaceMe.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ServiceError.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaskStoryboard.storyboardc",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaskVC.swift",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaskVC.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		88B451F7FF18F813AD84B4A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +205,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB913A6203C7914C240C79A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KQTaskNetworkManager/KQTaskNetworkManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KQTaskNetworkManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQTaskNetworkManager_Example/Pods-KQTaskNetworkManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -376,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -425,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -441,7 +372,7 @@
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				INFOPLIST_FILE = KQTaskNetworkManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -459,7 +390,7 @@
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				INFOPLIST_FILE = KQTaskNetworkManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
