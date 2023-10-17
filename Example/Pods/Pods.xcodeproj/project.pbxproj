@@ -7,37 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A1861383D63FE97CEED1AB283F8433A /* KQTaskNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D47E0D37B0A176A29802F0F547A7CB /* KQTaskNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B1B70E426D778ED18CCB886C6AC79E8 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2337CF645FE8D5E2AF98867276E6F8E8 /* ServiceError.swift */; };
-		102423C503B03C0461E688426FE7430D /* ApiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F330CBB219AEAD3F61608972864A744 /* ApiLoader.swift */; };
-		1C8DF5BD36EADA0D0DE663B18E9D8773 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A803A974752089A0A521B91A4CF1918 /* ReplaceMe.swift */; };
-		2198580E55CA32845600FE1061344CF5 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0EC8BFF7D680154834B4CD0EF4A5A4 /* RequestBuilder.swift */; };
-		33B9DDE777F47A10257AC49467D225BD /* KQTaskNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7E95EC202942A50B0037E84D3E7B7 /* KQTaskNetworkManager-dummy.m */; };
+		14D5B8E08E7D0BCC50E3BFC7574729E9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3334F71C09638214CC86A967FD74FF9 /* Media.xcassets */; };
+		162C20FBB9E0671A911F9E9BC2EBA7F8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122B36B991FA67BD87B8A33803F21357 /* Reachability.swift */; };
+		2328008A51EEE92BC35E0DB2BD16B609 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E525AE46857C3DD16F1BDD5A1100A4D /* RequestBuilder.swift */; };
+		296DD0384FB90D08B4F67449BBB48EDA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C614476FBF97559273F96CF648D30 /* ReplaceMe.swift */; };
+		2A4C62B3D01009768107E6B9D87FDAE3 /* ApiResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0639EE42B139AF657B9A8BB13C96CB /* ApiResponseHandler.swift */; };
 		47F57A4A7F600C1D716228A40E063776 /* Pods-KQTaskNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA1244E425487777A446786454E2AEB /* Pods-KQTaskNetworkManager_Example-dummy.m */; };
-		4D47080B8C6A1F774FA91B0B84E86B01 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C120FD601D7368C2329674FE139D9 /* ApiHandler.swift */; };
-		59AE0320DADD44CFB4B84E40352E5AC8 /* DefaultResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E76ED930509B381727BD21E092BCD2 /* DefaultResponseParser.swift */; };
-		705DE6A31C0C441EB5E3EF12CD4701C0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8C71BE151E9BC8279CF32DB3F5D0C /* Request.swift */; };
+		4B69222436736767CF147FED7A37D939 /* DefaultResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DB5F90DA896FF0AB60464CEC80C2A8 /* DefaultResponseParser.swift */; };
+		54D9CFC8237D9314446073BB55DA3195 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD35F6FBE45561778B0BAD8F9D49D1CD /* Enviroment.swift */; };
+		614FD5AF7BD8B465ED801864F8A2E244 /* KQTaskNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC307852F3809811C64E929B69420C5 /* KQTaskNetworkManager-dummy.m */; };
+		65A2BEEA4690B166825EF5C68AB17D65 /* KQTaskNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A423B0892A5E4E094838C440699AE7 /* KQTaskNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E846187DFA4E3F70D5C833374E6B5 /* ApiRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A862DE38B0EBB984AFF8C5A44D018E9F /* ApiRequestHandler.swift */; };
 		7E66EEF6F959544723FF123730FBF8A4 /* Pods-KQTaskNetworkManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D71E8259B593C716FB43F55F48E556C5 /* Pods-KQTaskNetworkManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		938A4C5E7C5CE56A151C1E52FE4E1DBF /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9F2EFE3286A4AD962C4E6F78769370 /* AuthRequest.swift */; };
-		ABB9DA50B990F6C3A91A33CC8D80F08B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C8C4EA119E0FA38A5C147CB85653C /* Reachability.swift */; };
-		B17485997854273AA8E95E1F1C005DC2 /* ApiRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EF358009E3EB80E618308E79A05BD /* ApiRequestHandler.swift */; };
-		C81600AB59DC846594F3C6AA9D5CF616 /* KQTaskNetworkManager-KQTaskNetworkManager in Resources */ = {isa = PBXBuildFile; fileRef = B086DA2E7B7A5C9FB6885FB52961471A /* KQTaskNetworkManager-KQTaskNetworkManager */; };
-		D30FF47629A75AEAFD079679FE9A724B /* ApiResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAF15CB07FABE0D6592C1DA45A7BD4 /* ApiResponseHandler.swift */; };
-		D66A24F0388588998DC094AF4EE23C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DAEAC31684F50BE08265D59C40440C77 /* DefaultRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57569B9AB1CEEF5AF3B2962325813437 /* DefaultRequest.swift */; };
-		E5DB2E2B110D3F937BFEE43643907037 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C695B6B0A7DED9A0653C4F8E13E874 /* Enviroment.swift */; };
+		8D40D8D2CC6F5C2AA97A24C195B456A4 /* DefaultRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC721CE944F18A59DC454C97BE369B /* DefaultRequest.swift */; };
+		959F9E8883B48EDABFA568C62C4AD9B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7C3C6D4C063F99317463DCB58C0B9 /* Request.swift */; };
+		9A4C1C62CA3B07436652ADE480AE7B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3EA1FBD86AC621D9C2788AAD8820B18 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93577722CEA0225D2E59CA6CA69FEBAA /* ApiHandler.swift */; };
 		E7A6D6862868141B92254238AC4BD3C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EE41C4B275290F9D9CCC7B60DD4CF60D /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE29BB6CA3F1512B7059AFDCD91C384 /* AuthRequest.swift */; };
+		F0665743AEE7E958D106B61B28A89530 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5DBDA4022CA4A4170A1DE6844388FE /* ServiceError.swift */; };
+		FC9C9A36AE88DCF974621C3F210F7932 /* ApiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E86B088AEDCCEEAF477FD9FAA5B0BC /* ApiLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		618B2898ADA322C3A73FFB21C8F5228A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 821BB9D150B7EB4A896FE851E342E189;
-			remoteInfo = "KQTaskNetworkManager-KQTaskNetworkManager";
-		};
-		CC856818ABE9089D0E8250E51CB47DAA /* PBXContainerItemProxy */ = {
+		5679B3E90294F4E4E0A9C0BEF66F9417 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,59 +40,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FDBDCB2E734944822979D093313CA9B /* KQTaskNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-prefix.pch"; sourceTree = "<group>"; };
-		15C695B6B0A7DED9A0653C4F8E13E874 /* Enviroment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
-		1C01927471E5D52984CE367A9874D8FE /* KQTaskNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
-		2337CF645FE8D5E2AF98867276E6F8E8 /* ServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
-		366EF358009E3EB80E618308E79A05BD /* ApiRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiRequestHandler.swift; sourceTree = "<group>"; };
-		37E76ED930509B381727BD21E092BCD2 /* DefaultResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultResponseParser.swift; sourceTree = "<group>"; };
-		45D47E0D37B0A176A29802F0F547A7CB /* KQTaskNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-umbrella.h"; sourceTree = "<group>"; };
-		4F330CBB219AEAD3F61608972864A744 /* ApiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiLoader.swift; sourceTree = "<group>"; };
+		02994E57B3CEA5A9000657C898FDDCE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		02E3DB522AA6EB5A661FD00D90762BF3 /* KQTaskNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KQTaskNetworkManager.modulemap; sourceTree = "<group>"; };
+		122B36B991FA67BD87B8A33803F21357 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		179B6CDA1C532FD011503267E14C4AD3 /* KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
+		32786E951185E58B1B077BC9AFE933F8 /* KQTaskNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-prefix.pch"; sourceTree = "<group>"; };
+		34A423B0892A5E4E094838C440699AE7 /* KQTaskNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-umbrella.h"; sourceTree = "<group>"; };
+		47DB5F90DA896FF0AB60464CEC80C2A8 /* DefaultResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultResponseParser.swift; sourceTree = "<group>"; };
 		523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KQTaskNetworkManager; path = KQTaskNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57569B9AB1CEEF5AF3B2962325813437 /* DefaultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultRequest.swift; sourceTree = "<group>"; };
 		5B5DC9F04D1B605F3A2E92CC26C7BE87 /* Pods-KQTaskNetworkManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KQTaskNetworkManager_Example"; path = Pods_KQTaskNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAC721CE944F18A59DC454C97BE369B /* DefaultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultRequest.swift; sourceTree = "<group>"; };
+		60E86B088AEDCCEEAF477FD9FAA5B0BC /* ApiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiLoader.swift; sourceTree = "<group>"; };
 		6372FB4ED09911AE03304C950DF1F7E9 /* Pods-KQTaskNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KQTaskNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
+		647806D6C0A8356748568CBCC46BE2AA /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6CA1244E425487777A446786454E2AEB /* Pods-KQTaskNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KQTaskNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
 		6CA714363A8BEBC12F364EA33C44ED57 /* Pods-KQTaskNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KQTaskNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6D0639EE42B139AF657B9A8BB13C96CB /* ApiResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiResponseHandler.swift; sourceTree = "<group>"; };
+		6DE29BB6CA3F1512B7059AFDCD91C384 /* AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
 		70614CB82C2EF77A83CBD23A78A67BE5 /* Pods-KQTaskNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KQTaskNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74B3C251D5119EF1C6EFF49128CF590F /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KQTaskNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7A803A974752089A0A521B91A4CF1918 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift; sourceTree = "<group>"; };
-		7E0EC8BFF7D680154834B4CD0EF4A5A4 /* RequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
-		82EB8AE7C4554376DDF9E13D65EB2998 /* KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
-		843D7F83DD477F1BB06769941BDEFFAC /* ResourceBundle-KQTaskNetworkManager-KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KQTaskNetworkManager-KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
-		88DC8567978CC0C5DE2AA5CCD37DB226 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		92A234333381AA54F947FC47B5E331B9 /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D4C120FD601D7368C2329674FE139D9 /* ApiHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		7E525AE46857C3DD16F1BDD5A1100A4D /* RequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		8BB4280876E5F91931663B7C3168A83C /* KQTaskNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.release.xcconfig; sourceTree = "<group>"; };
+		93577722CEA0225D2E59CA6CA69FEBAA /* ApiHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A73C8C4EA119E0FA38A5C147CB85653C /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A7F0EDF0D0E30D2A5EB3B2A36AC02B79 /* KQTaskNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
 		A851D5FBE0B20A96751C218CBDDDCCC8 /* Pods-KQTaskNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KQTaskNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B086DA2E7B7A5C9FB6885FB52961471A /* KQTaskNetworkManager-KQTaskNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "KQTaskNetworkManager-KQTaskNetworkManager"; path = KQTaskNetworkManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5951E5926B1D9C2F86509A71B294A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BFAF584B5DF17094CA56FDFAEECA7D09 /* KQTaskNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KQTaskNetworkManager.modulemap; sourceTree = "<group>"; };
+		A862DE38B0EBB984AFF8C5A44D018E9F /* ApiRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiRequestHandler.swift; sourceTree = "<group>"; };
+		A9461595273A7EB2B2B5B92CA70C7C57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD35F6FBE45561778B0BAD8F9D49D1CD /* Enviroment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		BDB7C3C6D4C063F99317463DCB58C0B9 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BE5DBDA4022CA4A4170A1DE6844388FE /* ServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		C08B494C5E71787ECE67BD121BA38A53 /* Pods-KQTaskNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KQTaskNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE705855ECA0CCB71EE2F62EB24C44A5 /* Pods-KQTaskNetworkManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KQTaskNetworkManager_Example-Info.plist"; sourceTree = "<group>"; };
+		CFC307852F3809811C64E929B69420C5 /* KQTaskNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KQTaskNetworkManager-dummy.m"; sourceTree = "<group>"; };
+		D3334F71C09638214CC86A967FD74FF9 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Assets/Media.xcassets; sourceTree = "<group>"; };
 		D71E8259B593C716FB43F55F48E556C5 /* Pods-KQTaskNetworkManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KQTaskNetworkManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		DFA7E95EC202942A50B0037E84D3E7B7 /* KQTaskNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KQTaskNetworkManager-dummy.m"; sourceTree = "<group>"; };
-		EF9F2EFE3286A4AD962C4E6F78769370 /* AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
-		EFBAF15CB07FABE0D6592C1DA45A7BD4 /* ApiResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiResponseHandler.swift; sourceTree = "<group>"; };
-		F1C8C71BE151E9BC8279CF32DB3F5D0C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		FB1E85C8CA6898EF8B8AAA35046FFC24 /* KQTaskNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.release.xcconfig; sourceTree = "<group>"; };
+		FD8C614476FBF97559273F96CF648D30 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		390FCDF2810536AB583A9D2CBBEE3DAB /* Frameworks */ = {
+		A5C8AE6DC14B4EBED4216F7B0C9158C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66A24F0388588998DC094AF4EE23C70 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91526DAA6B7C4796166983F6A07E9DA6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9A4C1C62CA3B07436652ADE480AE7B14 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,20 +99,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FCBF3C18208A07759305BCDC70B6CA0 /* Support Files */ = {
+		092BA3EAC1E687505686A2E3C123AC8B /* ApiLoader */ = {
 			isa = PBXGroup;
 			children = (
-				BFAF584B5DF17094CA56FDFAEECA7D09 /* KQTaskNetworkManager.modulemap */,
-				DFA7E95EC202942A50B0037E84D3E7B7 /* KQTaskNetworkManager-dummy.m */,
-				82EB8AE7C4554376DDF9E13D65EB2998 /* KQTaskNetworkManager-Info.plist */,
-				0FDBDCB2E734944822979D093313CA9B /* KQTaskNetworkManager-prefix.pch */,
-				45D47E0D37B0A176A29802F0F547A7CB /* KQTaskNetworkManager-umbrella.h */,
-				1C01927471E5D52984CE367A9874D8FE /* KQTaskNetworkManager.debug.xcconfig */,
-				FB1E85C8CA6898EF8B8AAA35046FFC24 /* KQTaskNetworkManager.release.xcconfig */,
-				843D7F83DD477F1BB06769941BDEFFAC /* ResourceBundle-KQTaskNetworkManager-KQTaskNetworkManager-Info.plist */,
+				60E86B088AEDCCEEAF477FD9FAA5B0BC /* ApiLoader.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KQTaskNetworkManager";
+			name = ApiLoader;
+			path = ApiLoader;
+			sourceTree = "<group>";
+		};
+		0AA9B78CE8B55ACB04F1E5EBB29CCE6C /* CreateRequests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE29BB6CA3F1512B7059AFDCD91C384 /* AuthRequest.swift */,
+				5FAC721CE944F18A59DC454C97BE369B /* DefaultRequest.swift */,
+				BDB7C3C6D4C063F99317463DCB58C0B9 /* Request.swift */,
+				7E525AE46857C3DD16F1BDD5A1100A4D /* RequestBuilder.swift */,
+			);
+			name = CreateRequests;
+			path = CreateRequests;
+			sourceTree = "<group>";
+		};
+		1EC152AB1FBF2198608C8943E41632D3 /* ApiResponseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				6D0639EE42B139AF657B9A8BB13C96CB /* ApiResponseHandler.swift */,
+				47DB5F90DA896FF0AB60464CEC80C2A8 /* DefaultResponseParser.swift */,
+			);
+			name = ApiResponseHandler;
+			path = ApiResponseHandler;
+			sourceTree = "<group>";
+		};
+		2269DDF3E6ABA0DCD7464350438274A6 /* ApiRequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A862DE38B0EBB984AFF8C5A44D018E9F /* ApiRequestHandler.swift */,
+			);
+			name = ApiRequestHandler;
+			path = ApiRequestHandler;
 			sourceTree = "<group>";
 		};
 		274DC29EE17397EBCF16EB5DBDDCEF1E /* Pods-KQTaskNetworkManager_Example */ = {
@@ -147,46 +156,12 @@
 			path = "Target Support Files/Pods-KQTaskNetworkManager_Example";
 			sourceTree = "<group>";
 		};
-		2CF516A6BF2C345F8EBE662AF3753C18 /* Products */ = {
+		56C3336DF204B4DFA36B190DA4594A7B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */,
-				B086DA2E7B7A5C9FB6885FB52961471A /* KQTaskNetworkManager-KQTaskNetworkManager */,
-				5B5DC9F04D1B605F3A2E92CC26C7BE87 /* Pods-KQTaskNetworkManager_Example */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3540685AFFF59D75D6F1828015E82EB6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				410052EB6FBC9BCB73AAD9343D2A1630 /* KQTaskNetworkManager */,
+				B12BC76685F915FB8C04DCAF64DC6D2A /* KQTaskNetworkManager */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		410052EB6FBC9BCB73AAD9343D2A1630 /* KQTaskNetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				7A803A974752089A0A521B91A4CF1918 /* ReplaceMe.swift */,
-				78E9C1DA140F84E11C181EAAEAEC4135 /* ApiHandler */,
-				CCDF2071AB06A461A30E1BAF1992FF31 /* Enviroment */,
-				BDB35171E4604701C38AAF39E93278F7 /* Pod */,
-				9995661F0E49169EF04661AC045EBDC3 /* Reachability */,
-				A620222804FC22F8DB150FAB287334A3 /* ServiceError */,
-				0FCBF3C18208A07759305BCDC70B6CA0 /* Support Files */,
-			);
-			name = KQTaskNetworkManager;
-			path = "/Users/pse/Documents/Documents - Muhammad MacBook Pro/KamQasim/Development/Interview_Preperation/KQTaskNetworkManager";
-			sourceTree = "<absolute>";
-		};
-		4FBBF12BF5A44A71A606C2A3ADD4495C /* ApiRequestHandler */ = {
-			isa = PBXGroup;
-			children = (
-				366EF358009E3EB80E618308E79A05BD /* ApiRequestHandler.swift */,
-			);
-			name = ApiRequestHandler;
-			path = ApiRequestHandler;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -205,82 +180,93 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7632AEC38602A084C4D5C99A90A80FB6 /* ApiResponseHandler */ = {
+		874E62E303F23ED3D6353E43139AD5D8 /* Enviroment */ = {
 			isa = PBXGroup;
 			children = (
-				EFBAF15CB07FABE0D6592C1DA45A7BD4 /* ApiResponseHandler.swift */,
-				37E76ED930509B381727BD21E092BCD2 /* DefaultResponseParser.swift */,
+				AD35F6FBE45561778B0BAD8F9D49D1CD /* Enviroment.swift */,
 			);
-			name = ApiResponseHandler;
-			path = ApiResponseHandler;
+			name = Enviroment;
+			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment;
 			sourceTree = "<group>";
 		};
-		78E9C1DA140F84E11C181EAAEAEC4135 /* ApiHandler */ = {
+		95FD639A4107E9826A35A9569454E8C8 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				9D4C120FD601D7368C2329674FE139D9 /* ApiHandler.swift */,
-				A31DBC791EF383578884872B9F57010A /* ApiLoader */,
-				4FBBF12BF5A44A71A606C2A3ADD4495C /* ApiRequestHandler */,
-				7632AEC38602A084C4D5C99A90A80FB6 /* ApiResponseHandler */,
-				F5C8A4E420E4A1B0181D739A2E05F1B2 /* CreateRequests */,
-			);
-			name = ApiHandler;
-			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler;
-			sourceTree = "<group>";
-		};
-		9995661F0E49169EF04661AC045EBDC3 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				A73C8C4EA119E0FA38A5C147CB85653C /* Reachability.swift */,
+				122B36B991FA67BD87B8A33803F21357 /* Reachability.swift */,
 			);
 			name = Reachability;
 			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Reachability;
 			sourceTree = "<group>";
 		};
-		A31DBC791EF383578884872B9F57010A /* ApiLoader */ = {
+		983A314C789A83421C2D55647803F8DA /* ServiceError */ = {
 			isa = PBXGroup;
 			children = (
-				4F330CBB219AEAD3F61608972864A744 /* ApiLoader.swift */,
-			);
-			name = ApiLoader;
-			path = ApiLoader;
-			sourceTree = "<group>";
-		};
-		A620222804FC22F8DB150FAB287334A3 /* ServiceError */ = {
-			isa = PBXGroup;
-			children = (
-				2337CF645FE8D5E2AF98867276E6F8E8 /* ServiceError.swift */,
+				BE5DBDA4022CA4A4170A1DE6844388FE /* ServiceError.swift */,
 			);
 			name = ServiceError;
 			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ServiceError;
 			sourceTree = "<group>";
 		};
-		BDB35171E4604701C38AAF39E93278F7 /* Pod */ = {
+		9E80AE1E274FF07169537DDEA1DAC5E0 /* ApiHandler */ = {
 			isa = PBXGroup;
 			children = (
-				92A234333381AA54F947FC47B5E331B9 /* KQTaskNetworkManager.podspec */,
-				88DC8567978CC0C5DE2AA5CCD37DB226 /* LICENSE */,
-				B5951E5926B1D9C2F86509A71B294A93 /* README.md */,
+				93577722CEA0225D2E59CA6CA69FEBAA /* ApiHandler.swift */,
+				092BA3EAC1E687505686A2E3C123AC8B /* ApiLoader */,
+				2269DDF3E6ABA0DCD7464350438274A6 /* ApiRequestHandler */,
+				1EC152AB1FBF2198608C8943E41632D3 /* ApiResponseHandler */,
+				0AA9B78CE8B55ACB04F1E5EBB29CCE6C /* CreateRequests */,
 			);
-			name = Pod;
+			name = ApiHandler;
+			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler;
 			sourceTree = "<group>";
 		};
-		CCDF2071AB06A461A30E1BAF1992FF31 /* Enviroment */ = {
+		A1E5F13FCAA26EF32CAB39D83F805DF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15C695B6B0A7DED9A0653C4F8E13E874 /* Enviroment.swift */,
+				523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */,
+				5B5DC9F04D1B605F3A2E92CC26C7BE87 /* Pods-KQTaskNetworkManager_Example */,
 			);
-			name = Enviroment;
-			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B12BC76685F915FB8C04DCAF64DC6D2A /* KQTaskNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				D3334F71C09638214CC86A967FD74FF9 /* Media.xcassets */,
+				FD8C614476FBF97559273F96CF648D30 /* ReplaceMe.swift */,
+				9E80AE1E274FF07169537DDEA1DAC5E0 /* ApiHandler */,
+				874E62E303F23ED3D6353E43139AD5D8 /* Enviroment */,
+				FF92C7ED5A5968A43CC6132BD32F8F18 /* Pod */,
+				95FD639A4107E9826A35A9569454E8C8 /* Reachability */,
+				983A314C789A83421C2D55647803F8DA /* ServiceError */,
+				BD671F8FEC9E4C158EFEC38C750D9EDC /* Support Files */,
+			);
+			name = KQTaskNetworkManager;
+			path = "/Users/pse/Documents/Documents - Muhammad MacBook Pro/KamQasim/Development/Interview_Preperation/KQTaskNetworkManager";
+			sourceTree = "<absolute>";
+		};
+		BD671F8FEC9E4C158EFEC38C750D9EDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E3DB522AA6EB5A661FD00D90762BF3 /* KQTaskNetworkManager.modulemap */,
+				CFC307852F3809811C64E929B69420C5 /* KQTaskNetworkManager-dummy.m */,
+				179B6CDA1C532FD011503267E14C4AD3 /* KQTaskNetworkManager-Info.plist */,
+				32786E951185E58B1B077BC9AFE933F8 /* KQTaskNetworkManager-prefix.pch */,
+				34A423B0892A5E4E094838C440699AE7 /* KQTaskNetworkManager-umbrella.h */,
+				A7F0EDF0D0E30D2A5EB3B2A36AC02B79 /* KQTaskNetworkManager.debug.xcconfig */,
+				8BB4280876E5F91931663B7C3168A83C /* KQTaskNetworkManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KQTaskNetworkManager";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3540685AFFF59D75D6F1828015E82EB6 /* Development Pods */,
+				56C3336DF204B4DFA36B190DA4594A7B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2CF516A6BF2C345F8EBE662AF3753C18 /* Products */,
+				A1E5F13FCAA26EF32CAB39D83F805DF7 /* Products */,
 				5C71EE3C3F9A6C8EEA6B77F36104B815 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -293,16 +279,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F5C8A4E420E4A1B0181D739A2E05F1B2 /* CreateRequests */ = {
+		FF92C7ED5A5968A43CC6132BD32F8F18 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EF9F2EFE3286A4AD962C4E6F78769370 /* AuthRequest.swift */,
-				57569B9AB1CEEF5AF3B2962325813437 /* DefaultRequest.swift */,
-				F1C8C71BE151E9BC8279CF32DB3F5D0C /* Request.swift */,
-				7E0EC8BFF7D680154834B4CD0EF4A5A4 /* RequestBuilder.swift */,
+				647806D6C0A8356748568CBCC46BE2AA /* KQTaskNetworkManager.podspec */,
+				A9461595273A7EB2B2B5B92CA70C7C57 /* LICENSE */,
+				02994E57B3CEA5A9000657C898FDDCE1 /* README.md */,
 			);
-			name = CreateRequests;
-			path = CreateRequests;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,47 +300,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2A5B8D294ADD0EA4E919FA12D3A45DB /* Headers */ = {
+		493B3B44ACFFDCF58D684DC96D0F1B56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A1861383D63FE97CEED1AB283F8433A /* KQTaskNetworkManager-umbrella.h in Headers */,
+				65A2BEEA4690B166825EF5C68AB17D65 /* KQTaskNetworkManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		821BB9D150B7EB4A896FE851E342E189 /* KQTaskNetworkManager-KQTaskNetworkManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C361C60A28917BC4129AD900CE8658FA /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager-KQTaskNetworkManager" */;
-			buildPhases = (
-				43D936B920466963C3AAC3242B036783 /* Sources */,
-				91526DAA6B7C4796166983F6A07E9DA6 /* Frameworks */,
-				7E387B994550C5266A18A31E87721B9B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "KQTaskNetworkManager-KQTaskNetworkManager";
-			productName = KQTaskNetworkManager;
-			productReference = B086DA2E7B7A5C9FB6885FB52961471A /* KQTaskNetworkManager-KQTaskNetworkManager */;
-			productType = "com.apple.product-type.bundle";
-		};
 		EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CCAA345C565EE18BDCD7B78C8E91C33 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager" */;
+			buildConfigurationList = 359F813C58E2E3903B5E57E3F6199409 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager" */;
 			buildPhases = (
-				A2A5B8D294ADD0EA4E919FA12D3A45DB /* Headers */,
-				5A6D6331B67D38D690E8510859F70F87 /* Sources */,
-				390FCDF2810536AB583A9D2CBBEE3DAB /* Frameworks */,
-				CA4730E62BC71B196D836BAC501EC29F /* Resources */,
+				493B3B44ACFFDCF58D684DC96D0F1B56 /* Headers */,
+				5D14DF7AF77A3965FAC4AD8C5D66FF72 /* Sources */,
+				A5C8AE6DC14B4EBED4216F7B0C9158C8 /* Frameworks */,
+				3AEF54EED0EC56083EF08AA7F43D853C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C711627116E03C515B556847241FE2BE /* PBXTargetDependency */,
 			);
 			name = KQTaskNetworkManager;
 			productName = KQTaskNetworkManager;
@@ -375,7 +341,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				96C2DF581E3D8E1EFAA1A8BA00210630 /* PBXTargetDependency */,
+				5D82504D5322D86B652813E24EFB1F31 /* PBXTargetDependency */,
 			);
 			name = "Pods-KQTaskNetworkManager_Example";
 			productName = Pods_KQTaskNetworkManager_Example;
@@ -400,18 +366,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2CF516A6BF2C345F8EBE662AF3753C18 /* Products */;
+			productRefGroup = A1E5F13FCAA26EF32CAB39D83F805DF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */,
-				821BB9D150B7EB4A896FE851E342E189 /* KQTaskNetworkManager-KQTaskNetworkManager */,
 				F1891BECB25AF3A5A0FF2A6D1D4C61D3 /* Pods-KQTaskNetworkManager_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3AEF54EED0EC56083EF08AA7F43D853C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D5B8E08E7D0BCC50E3BFC7574729E9 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BAE4789AA91130596971FAFB61E6BFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,49 +392,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E387B994550C5266A18A31E87721B9B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA4730E62BC71B196D836BAC501EC29F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C81600AB59DC846594F3C6AA9D5CF616 /* KQTaskNetworkManager-KQTaskNetworkManager in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43D936B920466963C3AAC3242B036783 /* Sources */ = {
+		5D14DF7AF77A3965FAC4AD8C5D66FF72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A6D6331B67D38D690E8510859F70F87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D47080B8C6A1F774FA91B0B84E86B01 /* ApiHandler.swift in Sources */,
-				102423C503B03C0461E688426FE7430D /* ApiLoader.swift in Sources */,
-				B17485997854273AA8E95E1F1C005DC2 /* ApiRequestHandler.swift in Sources */,
-				D30FF47629A75AEAFD079679FE9A724B /* ApiResponseHandler.swift in Sources */,
-				938A4C5E7C5CE56A151C1E52FE4E1DBF /* AuthRequest.swift in Sources */,
-				DAEAC31684F50BE08265D59C40440C77 /* DefaultRequest.swift in Sources */,
-				59AE0320DADD44CFB4B84E40352E5AC8 /* DefaultResponseParser.swift in Sources */,
-				E5DB2E2B110D3F937BFEE43643907037 /* Enviroment.swift in Sources */,
-				33B9DDE777F47A10257AC49467D225BD /* KQTaskNetworkManager-dummy.m in Sources */,
-				ABB9DA50B990F6C3A91A33CC8D80F08B /* Reachability.swift in Sources */,
-				1C8DF5BD36EADA0D0DE663B18E9D8773 /* ReplaceMe.swift in Sources */,
-				705DE6A31C0C441EB5E3EF12CD4701C0 /* Request.swift in Sources */,
-				2198580E55CA32845600FE1061344CF5 /* RequestBuilder.swift in Sources */,
-				0B1B70E426D778ED18CCB886C6AC79E8 /* ServiceError.swift in Sources */,
+				C3EA1FBD86AC621D9C2788AAD8820B18 /* ApiHandler.swift in Sources */,
+				FC9C9A36AE88DCF974621C3F210F7932 /* ApiLoader.swift in Sources */,
+				732E846187DFA4E3F70D5C833374E6B5 /* ApiRequestHandler.swift in Sources */,
+				2A4C62B3D01009768107E6B9D87FDAE3 /* ApiResponseHandler.swift in Sources */,
+				EE41C4B275290F9D9CCC7B60DD4CF60D /* AuthRequest.swift in Sources */,
+				8D40D8D2CC6F5C2AA97A24C195B456A4 /* DefaultRequest.swift in Sources */,
+				4B69222436736767CF147FED7A37D939 /* DefaultResponseParser.swift in Sources */,
+				54D9CFC8237D9314446073BB55DA3195 /* Enviroment.swift in Sources */,
+				614FD5AF7BD8B465ED801864F8A2E244 /* KQTaskNetworkManager-dummy.m in Sources */,
+				162C20FBB9E0671A911F9E9BC2EBA7F8 /* Reachability.swift in Sources */,
+				296DD0384FB90D08B4F67449BBB48EDA /* ReplaceMe.swift in Sources */,
+				959F9E8883B48EDABFA568C62C4AD9B2 /* Request.swift in Sources */,
+				2328008A51EEE92BC35E0DB2BD16B609 /* RequestBuilder.swift in Sources */,
+				F0665743AEE7E958D106B61B28A89530 /* ServiceError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,21 +427,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96C2DF581E3D8E1EFAA1A8BA00210630 /* PBXTargetDependency */ = {
+		5D82504D5322D86B652813E24EFB1F31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KQTaskNetworkManager;
 			target = EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */;
-			targetProxy = CC856818ABE9089D0E8250E51CB47DAA /* PBXContainerItemProxy */;
-		};
-		C711627116E03C515B556847241FE2BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "KQTaskNetworkManager-KQTaskNetworkManager";
-			target = 821BB9D150B7EB4A896FE851E342E189 /* KQTaskNetworkManager-KQTaskNetworkManager */;
-			targetProxy = 618B2898ADA322C3A73FFB21C8F5228A /* PBXContainerItemProxy */;
+			targetProxy = 5679B3E90294F4E4E0A9C0BEF66F9417 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A572E21442E2280E8970D428CB93868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB4280876E5F91931663B7C3168A83C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0AB984D17656B317D1089B9084CB225F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74B3C251D5119EF1C6EFF49128CF590F /* Pods-KQTaskNetworkManager_Example.debug.xcconfig */;
@@ -622,59 +600,9 @@
 			};
 			name = Release;
 		};
-		44E806BD42090126F5C07DA4C7B23B90 /* Release */ = {
+		5CC6D9D71E6AEF7750C4D538FAA5F841 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB1E85C8CA6898EF8B8AAA35046FFC24 /* KQTaskNetworkManager.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
-				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
-				PRODUCT_NAME = KQTaskNetworkManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F66A4FE466F1646270A791CF46307E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB1E85C8CA6898EF8B8AAA35046FFC24 /* KQTaskNetworkManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KQTaskNetworkManager";
-				IBSC_MODULE = KQTaskNetworkManager;
-				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/ResourceBundle-KQTaskNetworkManager-KQTaskNetworkManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				PRODUCT_NAME = KQTaskNetworkManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A230DB36F4B5A5FB06C656908F57A17B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C01927471E5D52984CE367A9874D8FE /* KQTaskNetworkManager.debug.xcconfig */;
+			baseConfigurationReference = A7F0EDF0D0E30D2A5EB3B2A36AC02B79 /* KQTaskNetworkManager.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -770,26 +698,18 @@
 			};
 			name = Debug;
 		};
-		FB3042CDD9B8B985BD7603F69687ADD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C01927471E5D52984CE367A9874D8FE /* KQTaskNetworkManager.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KQTaskNetworkManager";
-				IBSC_MODULE = KQTaskNetworkManager;
-				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/ResourceBundle-KQTaskNetworkManager-KQTaskNetworkManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				PRODUCT_NAME = KQTaskNetworkManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		359F813C58E2E3903B5E57E3F6199409 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC6D9D71E6AEF7750C4D538FAA5F841 /* Debug */,
+				0A572E21442E2280E8970D428CB93868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -799,29 +719,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CCAA345C565EE18BDCD7B78C8E91C33 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A230DB36F4B5A5FB06C656908F57A17B /* Debug */,
-				44E806BD42090126F5C07DA4C7B23B90 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		935439386AFEE9373323137C15B2AD04 /* Build configuration list for PBXNativeTarget "Pods-KQTaskNetworkManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AB984D17656B317D1089B9084CB225F /* Debug */,
 				2A9C56896BD7CA3A072F8E932315C497 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C361C60A28917BC4129AD900CE8658FA /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager-KQTaskNetworkManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FB3042CDD9B8B985BD7603F69687ADD2 /* Debug */,
-				6F66A4FE466F1646270A791CF46307E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

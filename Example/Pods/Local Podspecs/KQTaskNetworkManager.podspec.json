@@ -18,10 +18,9 @@
   "platforms": {
     "ios": "16.0"
   },
-  "resource_bundles": {
-    "KQTaskNetworkManager": [
-      "KQTaskNetworkManager/**/*.{xib,png}"
-    ]
-  },
-  "source_files": "KQTaskNetworkManager/**/*.{swift}"
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "source_files": "KQTaskNetworkManager/**/*.{swift}",
+  "resources": "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}",
+  "swift_version": "5.0"
 }

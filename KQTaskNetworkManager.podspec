@@ -33,9 +33,14 @@ s.source = { :git => "https://github.com/MKQasim/KQTaskNetworkManager.git", :tag
 s.ios.deployment_target = "16.0"
 
 #Specify the resource bundle name and pattern
-s.resource_bundles = { "KQTaskNetworkManager" => ["KQTaskNetworkManager/**/*.{xib,png}"] }
+#s.resource_bundles = { "KQTaskNetworkManager" => ["KQTaskNetworkManager/**/*.{xib,png}"] }
 
 #Specify the source files pattern
-s.source_files = "KQTaskNetworkManager/**/*.{swift}"
+#s.source_files = "KQTaskNetworkManager/**/*.{swift}"
 
+
+s.swift_version = "5.0"
+s.requires_arc = true
+s.source_files = "KQTaskNetworkManager/**/*.{swift}"
+s.resources = "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 end
