@@ -1,14 +1,9 @@
 {
   "name": "KQTaskNetworkManager",
   "version": "0.1.8",
-  "summary": "A short description of KQTaskNetworkManager.",
-  "description": "KQTaskNetworkManager is a library for making API calls to a server.",
+  "summary": "A library for managing network tasks and API calls.",
+  "description": "KQTaskNetworkManager is a library that simplifies the process of making network requests and handling responses. It provides a convenient way to create, cancel, and retry network tasks, as well as parse JSON data and handle errors. It also supports caching, authentication, and custom headers. With KQTaskNetworkManager, you can easily interact with any RESTful API in your app.",
   "homepage": "https://github.com/MKQasim/KQTaskNetworkManager",
-  "resource_bundles": {
-    "KQTaskNetworkManager": [
-      "KQTaskNetworkManager/Assets/*"
-    ]
-  },
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -23,6 +18,10 @@
   "platforms": {
     "ios": "16.0"
   },
-  "source_files": "KQTaskNetworkManager/**/*.{swift,xcassets}",
-  "resources": "KQTaskNetworkManager/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
+  "resource_bundles": {
+    "KQTaskNetworkManager": [
+      "KQTaskNetworkManager/**/*.{xib,png}"
+    ]
+  },
+  "source_files": "KQTaskNetworkManager/**/*.{swift}"
 }
