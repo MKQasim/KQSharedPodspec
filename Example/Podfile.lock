@@ -2,15 +2,15 @@ PODS:
   - KQTaskNetworkManager (0.1.8)
 
 DEPENDENCIES:
-  - KQTaskNetworkManager (from `/Users/pse/Documents/Documents - Muhammad MacBook Pro/KamQasim/Development/Interview_Preperation/KQTaskNetworkManager/`)
+  - KQTaskNetworkManager
 
-EXTERNAL SOURCES:
-  KQTaskNetworkManager:
-    :path: "/Users/pse/Documents/Documents - Muhammad MacBook Pro/KamQasim/Development/Interview_Preperation/KQTaskNetworkManager/"
+SPEC REPOS:
+  trunk:
+    - KQTaskNetworkManager
 
 SPEC CHECKSUMS:
   KQTaskNetworkManager: e7be88e17c16f0f2235d54f5e5ae3ce569b3af20
 
-PODFILE CHECKSUM: b2f54010afef5720730f94685f65e76e7b93284d
+PODFILE CHECKSUM: c6b0e9b04604b340aba15a61c6388105e24966f5
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.14.2
